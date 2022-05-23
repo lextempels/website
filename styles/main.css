@@ -1,41 +1,62 @@
-html {
-    height: 100%;
-}
-
 body {
-    background: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+}
+
+header {
+    width: available;
+}
+
+.topNav {
+    height: 6vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #151515;
+}
+
+main {
+    margin-top: 6vh;
+}
+
+.topNav-centered {
+    font-size: 150%;
+    float: none;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topNav-right {
+    font-size: 125%;
+    float: right;
+    position: relative;
     height: 100%;
 }
 
-div {
-    max-width: 350px;
-    margin: 0 auto;
-}
-
-a {
+.topNav-right a {
+    height: 100%;
+    display: flex;
+    float: left;
+    align-items:center;
+    justify-content:center;
+    color: orangered;
     text-decoration: none;
+    padding: 0 10px 0 10px;
 }
 
-#twitter {
-    background: #1DA1F2;
-    background: linear-gradient(45deg, #1DA1F2 0%, #E1E8ED 100%);
+.topNav-right a.active {
+    color: crimson;
 }
 
-#instagram {
-    background: #f09433;
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+.topNav-right a.active:hover {
+    text-shadow: 0 0 4px crimson;
 }
 
-#tiktok {
-    background: #FE2C55;
-    background: linear-gradient(45deg, #FE2C55 0%, #25F4EE 100%);
-}
-
-h2 {
-    text-align: center;
-    padding: 10px;
-    color: black;
-    text-shadow: 1px 1px 5px white;
-    border: 2px solid black;
-    border-radius: 5px;
+.topNav-right a:not(.active):hover {
+    text-shadow: 0 0 4px orangered;
 }
