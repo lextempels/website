@@ -1,0 +1,62 @@
+main {
+    display: flow-root;
+}
+
+main div {
+    display: flow-root;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 2%;
+}
+
+main div h1 {
+    font-weight: bold;
+}
+
+main div p {
+    color: white;
+}
+
+main div a {
+    float: right;
+    display: inline;
+    margin-top: -2%;
+    text-decoration: none;
+    color: mintcream;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+    width: 10%;
+}
+
+#tiktok {
+    border: 1px solid #FE2C55;
+    color: #FE2C55;
+    background: linear-gradient(135deg, #FE2C5510, #FE2C5599);
+}
+
+#tiktok a {
+    background: #FE2C55BB;
+}
+
+#twitter {
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+    background: linear-gradient(135deg, #1DA1F210, #1DA1F299);
+}
+
+#twitter a {
+    background: #1DA1F2BB;
+}
+
+#instagram {
+    border: 1px solid #bc2a8d;
+    color: #bc2a8d;
+    background: linear-gradient(135deg, #bc2a8d10, #bc2a8d99);
+}
+
+#instagram a {
+    background: #bc2a8dBB;
+}
